@@ -1,0 +1,27 @@
+{
+  "background_color": "#ffffff",
+  "description": "Skinn Labs' Foaming Body Scrub skincare collection refreshes and invigorates your skin thanks to our advanced formula which leaves skin feeling smoother, softer and moisturised.",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Skinn Labs",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Skinn Labs",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "categories": [],
+  "screenshots": [],
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/skinnlabs/skinnlabs/main/image%20(1).png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "https://raw.githubusercontent.com/skinnlabs/skinnlabs/main/image%20(1).png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "shortcuts": []
+}
