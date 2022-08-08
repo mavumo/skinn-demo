@@ -10,7 +10,7 @@ data-wf-status="1">
   <meta content=
   "Skinn Labs' Foaming Body Scrub skincare collection refreshes and invigorates your skin thanks to our advanced formula which leaves skin feeling smoother, softer and moisturised."
   name="description">
- 
+ <link rel="manifest" href="manifest.json" />
   
   <meta name="facebook-domain-verification" content="v2pjsa8y84rqw9ii7v0dqyfc8nw6v8" />
  
@@ -39,7 +39,13 @@ data-wf-status="1">
   "https://uploads-ssl.webflow.com/624fd4a40f05b81d5dc5644c/6268ca6dde6aeb6420e700ab_webclip.png"
   rel="apple-touch-icon">
   
-  <style>
+  <script type="module">
+   import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+   const el = document.createElement('pwa-update');
+   document.body.appendChild(el);
+</script>
+
+<style>
     .w-webflow-badge 
     {display:none!important;
       visibility:hidden!important;
